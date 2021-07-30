@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/Equiz.css">
+</head>
+
+<body>
+    <div class="start" style="background-image: url('https://webneel.com/wallpaper/sites/default/files/images/08-2018/1-nature-wallpaper-grass-hd.jpg');">
+        <div class="quiz">
+            <div class="quiz_head">
+                <div class="welcome">
+                    <h3>Welcome : <span class="your_name"></span></h3>
+                </div>
+                <div class="timer">
+                    <span class="time" id="timer"></span>
+                </div>
+            </div>
+
+            <div class="quiz_body">
+                
+                <div id="questions">
+                    <h2 class="questionTitle">What is the capital of India</h2>
+                    <ul class="option_list">
+                        <li class="option">1<li>
+                        <li class="option">2</li>
+                        <li class="option">3</li>
+                        <li class="option">4</li>
+                    </ul>
+                </div>
+
+                <div class="jump">
+                    <button class="prev" onclick="prev()">Previous</button>
+                    <button class="next" onclick="nextQue()">Next</button>
+                </div>
+
+                <div class="next_button">
+                    <button class="button" onclick="submit()">SUBMIT</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="Script/Equiz.js"></script>
+    <script src="Script/EfinalPage.js"></script>
+    <script src="Script/timer.js"></script>
+</body>
+
+</html>
