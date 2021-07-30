@@ -110,10 +110,9 @@ function prev(){
 
     
 function submit(){        
-    //marks_count();
+    
     final_page();
-    //question_count++;
-    //show(question_count);
+    
 
 }
 function show(count){
