@@ -1,8 +1,7 @@
-const time_limit = 1;
+const time_limit = 2;
 let time = time_limit * 60;
 
 let countdown = document.getElementById('timer');
-
 let inter = setInterval(updateCountdown, 1000)
 
 function updateCountdown(){
@@ -13,11 +12,11 @@ function updateCountdown(){
     minutes = minutes<10 ? '0'+ minutes : minutes;
     seconds = seconds<10 ? '0'+ seconds : seconds;
 
-    countdown.innerHTML = `${minutes}: ${seconds}`
+    countdown.innerHTML = `${minutes} : ${seconds}`
     time--;
     }
     else{
         clearInterval(inter);
-        //location.href="EfinalPage.html"
+        location.href="EfinalPage.html"
     }
 }
